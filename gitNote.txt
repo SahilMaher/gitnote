@@ -1,0 +1,82 @@
+For User Name:- git config --global user.name "User Name"
+
+E-Mail:- git config --global user.email "Email"
+
+For initialize git repository:-git init
+
+ For Check Status :-Git Status
+
+Add File for staging:-git add "file name" for multiple file :- git add -A
+
+for commit :-git commit -m "Add Message"
+
+Redo commit:- git checkout "filename" for multiple file :- git checkout -f
+
+check commit message :-git log
+check perticular commit :-git log -p -"number of commit" press q for qiute
+  
+
+check modification in file :- git diff
+
+
+
+comper with commit and staging:-git diff --staged
+
+remove file from staging :-git rm --cached "file name"
+
+show branch:-git branch
+ create branch:- git branch "branchName"
+return brach :-git checkout "branchName"
+marge branch:-git merge "branch Name"
+ create branch and switch:- git checkout -b "branch name"
+
+
+host over repo remotely:- git remote add origin "http path of Repo" 
+
+check Remote:- git Remote
+
+check full info of remote:-git remote -v
+
+
+
+_______ push file to host steps______________________
+
+*)give permition for ssh gpg
+
+1)go repo profile
+2)go setting and go ssh gpg
+3)click on generating shh key 
+4)genreting a new shh key and ading......
+5)copy step no to link and paste new browser tab and replace with your email
+6)paste on gitbash and enter
+7)eval $(ssh-agent -s)
+8)ssh-add /c/Users/DELL/.ssh/id_ed25519
+9)go on adding new ssh key to your git hub account
+10)copy from clip
+11)cat  ~/.ssh/id_ed25519.pub and change like this and run
+
+12)copy that contennt and go add new key and paste 
+
+
+
+_____Cloning_______
+
+cloning a other repo:-git clone "path of repo" folder name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

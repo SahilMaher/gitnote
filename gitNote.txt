@@ -36,6 +36,7 @@ host over repo remotely:- git remote add origin "http path of Repo"
 check Remote:- git Remote
 
 check full info of remote:-git remote -v
+git push origin master
 
 
 
